@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#111827;
+    font-family:Arial,sans-serif;
+    color:white;
+}
+
+.clock-container{
+    text-align:center;
+    background:#1f2937;
+    padding:40px;
+    border-radius:20px;
+    width:90%;
+    max-width:600px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+
+h1{
+    margin-bottom:25px;
+    font-size:32px;
+}
+
+#clock{
+    font-size:70px;
+    font-weight:bold;
+    letter-spacing:4px;
+}
+
+#date{
+    margin-top:15px;
+    font-size:20px;
+    color:#cbd5e1;
+}
+
+button{
+    margin-top:30px;
+    padding:12px 20px;
+    border:none;
+    border-radius:10px;
+    background:#2563eb;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+@media(max-width:500px){
+    #clock{
+        font-size:45px;
+    }
+
+    h1{
+        font-size:26px;
+    }
+}
+
+.alarm-section{
+    margin-top:35px;
+    padding-top:25px;
+    border-top:1px solid #374151;
+}
+
+.alarm-section h2{
+    margin-bottom:20px;
+}
+
+input[type="time"]{
+    padding:12px;
+    font-size:18px;
+    border-radius:8px;
+    border:none;
+    margin-bottom:15px;
+}
+
+.alarm-section button{
+    margin:5px;
+}
+
+#alarmStatus{
+    margin-top:15px;
+    color:#cbd5e1;
+}
+
+.stop-btn{
+    background:#dc2626;
+}
+
+.stop-btn:hover{
+    background:#b91c1c;
+}
